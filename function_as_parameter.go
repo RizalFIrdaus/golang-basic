@@ -5,12 +5,14 @@ import (
 	"strings"
 )
 
+type Filter func(string) string
+
 func main() {
-	text := "ANJING"
+	text := "Rizal"
 	HelloWithFilter(text, filterText)
 }
 
-func HelloWithFilter(text string, filter func(string) string) {
+func HelloWithFilter(text string, filter Filter) {
 	filterText := filter(text)
 	fmt.Println(filterText)
 }
