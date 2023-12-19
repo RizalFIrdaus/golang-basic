@@ -8,7 +8,7 @@ func main() {
 	//	fmt.Println("Perulangan ke ", counter)
 	//}
 	//
-	//fmt.Println("Selesai")
+	//fmt.Println("Selesai")f
 
 	// For Range
 	names := []string{"Muhammad", "Rizal", "Firdaus"}
