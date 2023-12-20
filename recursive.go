@@ -18,6 +18,7 @@ func factorialRecursive(value int) int {
 	}
 }
 
+
 func main() {
 	fmt.Println(factorialLoop(5))
 
